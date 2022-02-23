@@ -1,0 +1,58 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 70%;
+    color: black;
+}
+
+#h {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#heart {
+    position: relative;
+    width: 5vw;
+    height: 20vh;
+    background-color: #a83f39;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(45deg);
+}
+
+#heart::before {
+    content: " ";
+    position: absolute;
+    width: 5vw;
+    height: 20vh;
+    background-color: #a83f39;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(-90deg);
+    top: 30px;
+    left: -30px;
+}
+
+#center {
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
